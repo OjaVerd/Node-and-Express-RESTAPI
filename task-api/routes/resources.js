@@ -142,3 +142,6 @@ router.delete('/:id', function (req, res) {
 
   res.json(removedTask);
 });
+
+
+module.exports = router;
